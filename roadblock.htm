@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadblock Advertisement</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="roadblock/roadblock.css">
+</head>
+<body>
+    <div id="roadblock-wrap" class=" d-flex align-items-center justify-content-center roadblock " style="background-color: rgba(209, 213, 219, 1);">
+        <div >
+            
+             
+            <div class="position-relative shadow p-4 bg-white " style="border-radius: 2%;">
+                <p class="btn btn-danger rounded-circle roadblock_skip " onclick="skipAd(event)">X</p>
+                <a href="#" target="_blank" id="advertisementLink">
+                    <img src="roadblock/default.jpg"  width="500px" height="500px" class="img-fluid rounded" style="border-radius: 3%; object-fit: contain;" alt="Advertisement">
+                </a>
+            </div>
+           
+        </div>
+    </div>
+
+    <script src="roadblock/roadblock.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
